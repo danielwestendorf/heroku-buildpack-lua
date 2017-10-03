@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cat << EOF
+---
+config_vars:
+  PATH: "/usr/local/bin:/usr/bin:/bin:/app/vendor/lua/bin"
+default_process_types:
+  console: "vendor/lua/bin/lua"
+EOF
